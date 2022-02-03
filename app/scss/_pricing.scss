@@ -34,7 +34,7 @@
     .title-underline {
       width: 246px;
       height: 16px;
-      background: url("/img/underline.svg");
+      background: url("./img/underline.svg");
     }
   }
 
@@ -48,7 +48,7 @@
     }
 
     .monthly-background {
-      background: url("/img/background-monthly.png") center center no-repeat;
+      background: url("./img/background-monthly.png") center center no-repeat;
       background-size: cover;
     }
 
@@ -72,7 +72,7 @@
     }
 
     .yearly-background {
-      background: url("/img/background-yearly.png") center center no-repeat;
+      background: url("./img/background-yearly.png") center center no-repeat;
       background-size: cover;
     }
 
