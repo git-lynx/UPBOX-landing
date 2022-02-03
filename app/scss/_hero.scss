@@ -1,0 +1,159 @@
+@import "colors";
+
+.hero {
+  display: flex;
+  flex-direction: row;
+
+  .container-xxl {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+    background: url("/img/hero.png") center center no-repeat;
+    background-size: cover;
+    background-color: $sky;
+    @media screen and (max-width: 320px) {
+      background: none;
+    }
+  }
+  .container-l {
+    display: flex;
+  }
+  .column {
+    @media screen and (max-width: 320px) {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  .mobile-image {
+    display: none;
+    @media screen and (max-width: 320px) {
+      display: block;
+    }
+    .image {
+      width: 100%;
+    }
+  }
+  .content {
+    padding: 106px 783px 85px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    @media screen and (max-width: 1250px) {
+      padding: 18px 700px 18px 10px;
+    }
+    @media screen and (max-width: 1140px) {
+      padding: 18px 700px 18px 10px;
+    }
+    @media screen and (max-width: 991px) {
+      padding: 18px 316px 18px 10px;
+    }
+    @media screen and (max-width: 768px) {
+      padding: 0px 94px 18px 10px;
+    }
+    @media screen and (max-width: 480px) {
+      padding: 0px 0px 18px 10px;
+    }
+    @media screen and (max-width: 320px) {
+      padding: 0px 0px 18px 10px;
+    }
+
+    .title {
+      padding: 0 0 20px 0;
+      font-family: DM Serif Display;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 48px;
+      line-height: 56px;
+      color: $black;
+
+      @media screen and (max-width: 991px) {
+        padding: 18px 298px 18px 0;
+        font-size: 42px;
+        line-height: 48px;
+      }
+      @media screen and (max-width: 768px) {
+        padding: 18px 298px 18px 0;
+        font-size: 42px;
+        line-height: 48px;
+      }
+      @media screen and (max-width: 480px) {
+        padding: 18px 106px 18px 0;
+        font-size: 42px;
+        line-height: 48px;
+      }
+      @media screen and (max-width: 320px) {
+        padding: 18px 60px 18px 0;
+        font-size: 42px;
+        line-height: 48px;
+      }
+    }
+
+    .desc {
+      padding-bottom: 50px;
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 23px;
+      letter-spacing: 0.01em;
+      @media screen and (max-width: 991px) {
+        font-size: 14px;
+        line-height: 18px;
+        padding: 18px 298px 48px 0;
+      }
+      @media screen and (max-width: 768px) {
+        font-size: 14px;
+        line-height: 18px;
+        padding: 18px 298px 48px 0;
+      }
+      @media screen and (max-width: 480px) {
+        font-size: 14px;
+        line-height: 18px;
+        padding: 18px 124px 48px 0;
+      }
+      @media screen and (max-width: 320px) {
+        font-size: 14px;
+        line-height: 18px;
+        padding: 18px 76px 48px 0;
+      }
+    }
+
+    .sign-up-btn {
+      background: white;
+      padding: 20px 30px;
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 21px;
+      letter-spacing: 0.12em;
+      border: 4px solid $pink;
+      box-sizing: border-box;
+      border-radius: 300px;
+      @media screen and (max-width: 991px) {
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 0.12em;
+        padding: 15px 40px;
+        margin-bottom: 188px;
+      }
+      @media screen and (max-width: 768px) {
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 0.12em;
+        padding: 15px 40px;
+      }
+      @media screen and (max-width: 768px) {
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 0.12em;
+        padding: 15px 40px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}

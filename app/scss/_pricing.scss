@@ -1,0 +1,198 @@
+@import "colors";
+
+.pricing {
+  padding: 70px 0 0;
+  @media screen and (max-width: 991px) {
+    padding: 30px 8px 86px;
+  }
+  @media screen and (max-width: 768px) {
+    padding: 30px 8px 86px;
+  }
+  .headline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .title {
+      font-family: DM Serif Text;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 48px;
+      line-height: 56px;
+      @media screen and (max-width: 991px) {
+        font-size: 42px;
+        line-height: 48px;
+        padding: 0 0 10px;
+      }
+      @media screen and (max-width: 768px) {
+        font-size: 42px;
+        line-height: 48px;
+        padding: 0 0 10px;
+      }
+    }
+
+    .title-underline {
+      width: 246px;
+      height: 16px;
+      background: url("/img/underline.svg");
+    }
+  }
+
+  .content {
+    padding: 110px 10px 96px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    @media screen and (max-width: 480px) {
+      flex-direction: column;
+    }
+
+    .monthly-background {
+      background: url("/img/background-monthly.png") center center no-repeat;
+      background-size: cover;
+    }
+
+    .monthly {
+      padding: 50px 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      max-width: 48%;
+      width: 100%;
+      height: auto;
+      border: 4px solid #c4c4c4;
+      border-radius: 4px;
+      box-sizing: border-box;
+      @media screen and (max-width: 480px) {
+        max-width: 99%;
+        margin-bottom: 20px;
+      }
+
+    }
+
+    .yearly-background {
+      background: url("/img/background-yearly.png") center center no-repeat;
+      background-size: cover;
+    }
+
+    .yearly {
+      padding: 50px 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      max-width: 48%;
+      width: 100%;
+      height: auto;
+      border: 4px solid #c4c4c4;
+      border-radius: 4px;
+      box-sizing: border-box;
+      @media screen and (max-width: 480px) {
+        max-width: 99%;
+      }
+    }
+
+    .title {
+      font-family: DM Serif Text;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 36px;
+      line-height: 49px;
+      text-align: center;
+      color: $black;
+      @media screen and (max-width: 991px) {
+        font-size: 20px;
+        line-height: 27px;
+        padding: 0 0 10px;
+      }
+      @media screen and (max-width: 768px) {
+        font-size: 20px;
+        line-height: 27px;
+        padding: 0 0 10px;
+      }
+    }
+
+    .desc {
+      padding-bottom: 20px;
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 44px;
+      line-height: 57px;
+      text-align: center;
+      letter-spacing: 0.12em;
+      color: $black;
+      @media screen and (max-width: 991px) {
+        font-size: 24px;
+        line-height: 31px;
+        letter-spacing: 0.12em;
+      }
+      @media screen and (max-width: 768px) {
+        font-size: 24px;
+        line-height: 31px;
+        letter-spacing: 0.12em;
+      }
+    }
+
+    .pick-btn {
+      padding: 22px 30px;
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 21px;
+      text-align: center;
+      letter-spacing: 0.12em;
+      border: 4px solid $pink;
+      box-sizing: border-box;
+      border-radius: 300px;
+      background: $pink;
+      color: white;
+      @media screen and (max-width: 991px) {
+        font-size: 8px;
+        line-height: 10px;
+        letter-spacing: 0.12em;
+        padding: 8px 10px;
+      }
+      @media screen and (max-width: 768px) {
+        font-size: 8px;
+        line-height: 10px;
+        letter-spacing: 0.12em;
+        padding: 8px 10px;
+      }
+    }
+  }
+
+  .info-line {
+    padding-bottom: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media screen and (max-width: 480px) {
+      padding: 10px;
+    }
+    .info {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 23px;
+      letter-spacing: 0.01em;
+      color: $black;
+      @media screen and (max-width: 991px) {
+        font-size: 14px;
+        line-height: 18px;
+        width: 100%;
+      }
+      @media screen and (max-width: 768px) {
+        font-size: 14px;
+        line-height: 18px;
+        width: 100%;
+      }
+    }
+  }
+}

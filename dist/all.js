@@ -1,0 +1,2 @@
+$(document).ready((function(){$(".burger-menu").click((function(e){$(".burger-menu").toggleClass("active"),$(".burger-nav").toggleClass("active"),$("body").toggleClass("fixed-page")}))})),console.log("Load script.js");var app={};
+//# sourceMappingURL=all.js.map
